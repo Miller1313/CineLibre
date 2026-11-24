@@ -80,8 +80,7 @@ fun CineLibreApp(openUrl: (String) -> Unit) {
                 }
                 Spacer(Modifier.height(18.dp))
                 if (selected == null) {
-                    Text("Historias que merecen
-volver a verse.", color = Color.White, fontSize = 27.sp, fontWeight = FontWeight.Bold, lineHeight = 31.sp)
+                    Text("Historias que merecen\nvolver a verse.", color = Color.White, fontSize = 27.sp, fontWeight = FontWeight.Bold, lineHeight = 31.sp)
                     Spacer(Modifier.height(16.dp))
                     OutlinedTextField(
                         value = query, onValueChange = { query = it },
